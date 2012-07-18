@@ -115,10 +115,8 @@
       <file leaf-file-name="LoginActionTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/LoginActionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="45" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="49" column="93" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,7 +124,7 @@
       <file leaf-file-name="LoginAction.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LoginAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="16" selection-start="519" selection-end="519" vertical-scroll-proportion="0.54587156">
+            <state line="22" column="69" selection-start="617" selection-end="617" vertical-scroll-proportion="0.57186544">
               <folding />
             </state>
           </provider>
@@ -189,6 +187,30 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ForumManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ForumManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ForumManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Default" />
         <subPane subId="Problems" />
@@ -210,28 +232,11 @@
         </subPane>
         <subPane subId="Project Files" />
         <subPane subId="Changed Files" />
-        <subPane subId="All" />
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
+        <subPane subId="All">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForumManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForumManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForumManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -261,29 +266,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoginActionTest.shouldAskForPassword">
-    <configuration default="false" name="All in ForumManagement" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="ForumManagement" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.LoginActionTest.shouldSendMessageIfIncorrectIdOrPasswordEntered">
     <configuration default="false" name="ForumTest.shouldThrowErrorIfTryingToAddCommentWithoutLogin" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="ForumManagement" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -357,6 +340,28 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LoginActionTest" />
       <option name="METHOD_NAME" value="shouldAskForPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LoginActionTest.shouldSendMessageIfIncorrectIdOrPasswordEntered" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="ForumManagement" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginActionTest" />
+      <option name="METHOD_NAME" value="shouldSendMessageIfIncorrectIdOrPasswordEntered" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -490,11 +495,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All in ForumManagement" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ForumTest.shouldThrowErrorIfTryingToAddCommentWithoutLogin" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LoginActionTest.shouldDisplayCorrectNameOfAction" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LoginActionTest.shouldAskForUserName" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LoginActionTest.shouldAskForPassword" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ForumTest.shouldThrowErrorIfTryingToAddCommentWithoutLogin" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LoginActionTest.shouldDisplayCorrectNameOfAction" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LoginActionTest.shouldAskForUserName" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LoginActionTest.shouldAskForPassword" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LoginActionTest.shouldSendMessageIfIncorrectIdOrPasswordEntered" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -529,7 +534,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -546,7 +551,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20897916" sideWeight="0.7275641" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2724359" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2724359" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -652,51 +657,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Post.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="19" column="5" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="40" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="40" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/ForumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="54" selection-start="3723" selection-end="3723" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="106" column="54" selection-start="3723" selection-end="3723" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Forum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="88" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="32" column="88" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/LoginActionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="45" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="49" column="93" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LoginAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="16" selection-start="519" selection-end="519" vertical-scroll-proportion="0.54587156">
+        <state line="22" column="69" selection-start="617" selection-end="617" vertical-scroll-proportion="0.57186544">
           <folding />
         </state>
       </provider>

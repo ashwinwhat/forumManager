@@ -37,4 +37,16 @@ public class LoginActionTest {
 
         assertThat(console.getOutput(),containsString("Enter Password:"));
     }
+
+    @Test
+    public void shouldSendMessageIfIncorrectIdOrPasswordEntered(){
+        Forum forum = new Forum();
+        FakeConsole console = new FakeConsole();
+        console.addInputs("default","psword");
+        LoginAction action = new LoginAction(forum);
+
+        action.execute(console);
+
+        assertThat(console.getOutput(),containsString("Incorrect User Id or Password entered."));
+    }
 }
