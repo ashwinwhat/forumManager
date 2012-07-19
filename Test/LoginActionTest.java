@@ -49,4 +49,16 @@ public class LoginActionTest {
 
         assertThat(console.getOutput(),containsString("Incorrect User Id or Password entered."));
     }
+
+    @Test
+    public void shouldSendMessageIfCorrectIdAndPasswordEntered(){
+        Forum forum = new Forum();
+        FakeConsole console = new FakeConsole();
+        console.addInputs("default","password");
+        LoginAction action = new LoginAction(forum);
+
+        action.execute(console);
+
+        assertThat(console.getOutput(),containsString("Login Successful"));
+    }
 }

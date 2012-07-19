@@ -1,4 +1,4 @@
-public class LoginAction implements IAction{
+public class LoginAction implements IForumAction {
 
     private Forum forum;
 
@@ -22,5 +22,6 @@ public class LoginAction implements IAction{
         }catch (RuntimeException exception){
             console.writeLine("Incorrect User Id or Password entered.");
         }
+        console.writeLine("Login Successful.");
     }
 }

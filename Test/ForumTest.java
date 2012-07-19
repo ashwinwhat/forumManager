@@ -31,11 +31,10 @@ public class ForumTest {
         Forum forum = new Forum();
         FakeConsole console = new FakeConsole();
         forum.login("default","password");
-        Post post = new Post(console, "Test Title", "Dummy Author", "This is a dummy post.");
+        Post post = new Post("Test Title", "Dummy Author", "This is a dummy post.");
         forum.add(post);
 
-        forum.viewPosts();
-        assertThat(console.getOutput(),containsString("Test Title - Dummy Author"));
+        assertThat(forum.viewPosts().get(0).getDetails(),containsString("Test Title - Dummy Author"));
     }
 
     @Test
@@ -43,36 +42,33 @@ public class ForumTest {
         FakeConsole console = new FakeConsole();
         Forum forum = new Forum();
         forum.login("default","password");
-        Post post = new Post(console, "Test Title", "Dummy Author", "This is a dummy post.");
+        Post post = new Post("Test Title", "Dummy Author", "This is a dummy post.");
         forum.add(post);
 
-        forum.viewPosts();
-        assertThat(console.getOutput(),containsString("Test Title - Dummy Author"));
-
+        assertThat(forum.viewPosts().get(0).getDetails(),containsString("Test Title - Dummy Author"));
     }
 
     @Test
     public void shouldReadSelectedPost(){
         Forum forum = new Forum();
         FakeConsole console = new FakeConsole();
-        Post post = new Post(console, "Test Title", "Dummy Author", "This is a dummy post.");
+        Post post = new Post("Test Title", "Dummy Author", "This is a dummy post.");
         forum.login("default","password");
         forum.add(post);
 
-        forum.readPost(post);
 
-        assertThat(console.getOutput(), containsString("This is a dummy post."));
+        assertThat(forum.readPost(post), containsString("This is a dummy post."));
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void shouldThrowErrorIfIncorrectInputProvided(){
         Forum forum = new Forum();
         FakeConsole console = new FakeConsole();
-        Post post = new Post(console, "Test Title", "Dummy Author", "This is a dummy post.");
+        Post post = new Post("Test Title", "Dummy Author", "This is a dummy post.");
         forum.login("default","password");
         forum.add(post);
 
-        forum.readPost(new Post(console,"dummy title","",""));
+        forum.readPost(new Post("dummy title","",""));
     }
 
     @Test
@@ -80,30 +76,10 @@ public class ForumTest {
         Forum forum = new Forum();
         FakeConsole console = new FakeConsole();
         forum.login("default","password");
-        Post post = new Post(console,"Test Title","Dummy Author","This is a dummy post.");
+        Post post = new Post("Test Title","Dummy Author","This is a dummy post.");
         forum.add(post);
 
         forum.comment(post,"This is a dummy comment");
-        forum.readComments(post);
-        assertThat(console.getOutput(), containsString("This is a dummy comment"));
-    }
-
-    @Test(expected = RuntimeException.class)
-    public void shouldThrowErrorIfTryingToAddPostAndNotLoggedIn(){
-        Forum forum = new Forum();
-        FakeConsole console = new FakeConsole();
-        Post post = new Post(console,"Test Title","Dummy Author","This is a dummy post.");
-        forum.add(post);
-    }
-
-    @Test(expected = RuntimeException.class)
-    public void shouldThrowErrorIfTryingToAddCommentWithoutLogin(){
-        Forum forum = new Forum();
-        FakeConsole console = new FakeConsole();
-        forum.login("default","password");
-        Post post = new Post(console,"Test Title","Dummy Author","This is a dummy post.");
-        forum.add(post);
-        forum.logout();
-        forum.comment(post,"This is a dummy comment");
+        assertThat(forum.readComments(post).get(0), containsString("This is a dummy comment"));
     }
 }

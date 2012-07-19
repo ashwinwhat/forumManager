@@ -7,44 +7,46 @@ public class Forum {
     private List<Post> posts = new ArrayList<Post>();
     private Map<String,String> users = new HashMap<String, String>();
     private boolean loggedIn = false;
+    private String userName = null;
 
     public Forum(){
         users.put("default","password");
+        users.put("1","1");
     }
 
     public void add(Post post) {
-        if(!loggedIn) throw new RuntimeException("You have to login to add a post.");
         posts.add(post);
     }
 
-    public void viewPosts() {
-        for (Post post : posts) {
-            post.getDetails();
-        }
+    public List<Post> viewPosts() {
+        return posts;
     }
 
-    public void readPost(Post post) {
+    public String readPost(Post post) {
         if(!posts.contains(post))throw new IllegalArgumentException();
-        post.read();
+        return post.read();
     }
 
     public void comment(Post post, String comment) {
         if (!posts.contains(post)) throw new IllegalArgumentException();
-        if(!loggedIn) throw new RuntimeException("You have to login to add a comment.");
 
         posts.get(posts.indexOf(post)).comment(comment);
     }
 
-    public void readComments(Post post) {
+    public List<String> readComments(Post post) {
         if (!posts.contains(post)) throw new IllegalArgumentException();
 
-        post.viewComments();
+        return post.viewComments();
+    }
+
+    public String getUserName() {
+        return userName;
     }
 
     public void login(String userName, String password) {
         if(!users.containsKey(userName)) throw new RuntimeException();
-        if(users.get(userName) != password) throw new RuntimeException();
-
+        if(!users.get(userName).equals(password)) throw new RuntimeException();
+        this.userName = userName;
         loggedIn = true;
     }
 

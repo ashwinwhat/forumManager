@@ -6,31 +6,27 @@ public class Post {
     private String title;
     private String content;
     private List<String> comments = new ArrayList<String>();
-    private IConsole console;
 
-    public Post(IConsole console,String title, String author, String content) {
+    public Post(String title, String author, String content) {
         this.title = title;
         this.author = author;
         this.content = content;
-        this.console = console;
     }
 
-    public void getDetails() {
-        console.writeLine(title + " - " + author);
+    public String getDetails() {
+        return(title + " - " + author);
     }
 
-    public void read() {
-        console.writeLine(content);
+    public String read() {
+        return content;
     }
 
     public void comment(String comment) {
         comments.add(comment);
     }
 
-    public void viewComments() {
-        for (String comment : comments) {
-            console.writeLine(comment);
-        }
+    public List<String> viewComments() {
+        return comments;
     }
 
     public String getTitle() {
