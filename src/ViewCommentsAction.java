@@ -15,7 +15,7 @@ public class ViewCommentsAction implements IPostAction {
 
     @Override
     public void execute(IConsole console) {
-        if(post.viewComments().size() == 0){
+        if(post.viewComments().isEmpty()){
             console.writeLine("No comments added yet");
             return;
         }

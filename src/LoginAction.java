@@ -19,9 +19,9 @@ public class LoginAction implements IForumAction {
         String password = console.readLine();
         try{
             forum.login(id,password);
+            console.writeLine("Login Successful.");
         }catch (RuntimeException exception){
             console.writeLine("Incorrect User Id or Password entered.");
         }
-        console.writeLine("Login Successful.");
     }
 }

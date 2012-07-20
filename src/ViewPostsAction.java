@@ -18,6 +18,9 @@ public class ViewPostsAction implements IForumAction {
     public void execute(IConsole console) {
         console.writeLine("Following are the list of posts:");
         Post post = performPostActions(console);
+        if(post == null){
+            return;
+        }
         if(forum.viewPosts().isEmpty()){
             return;
         }
@@ -48,6 +51,7 @@ public class ViewPostsAction implements IForumAction {
             return null;
         }
         printListOfPosts(console);
+        console.writeLine("Please select which post you would like to read:");
         int selected = getUserChoice(console);
         return printSelectedPost(console, selected);
     }
@@ -65,7 +69,7 @@ public class ViewPostsAction implements IForumAction {
 
     private Post printSelectedPost(IConsole console, int selected) {
         if(selected >= forum.viewPosts().size()){
-            console.writeLine("Please enter a valid input");
+            console.writeLine("Please enter a valid option");
             return null;
         }
         console.writeLine(forum.viewPosts().get(selected).read());
@@ -73,10 +77,15 @@ public class ViewPostsAction implements IForumAction {
     }
 
     private int getUserChoice(IConsole console) {
-        console.writeLine("Please select which post you would like to read:");
         String choice = console.readLine();
-        int selected = Integer.parseInt(choice);
-        --selected;
+        int selected = 0;
+        try{
+            selected = Integer.parseInt(choice);
+            --selected;
+        }catch (NumberFormatException error){
+            console.writeLine("Please enter a number");
+        }
+
         return selected;
     }
 

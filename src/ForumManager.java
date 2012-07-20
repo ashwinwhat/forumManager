@@ -20,16 +20,22 @@ public class ForumManager {
             console.writeLine(iterator + ") " + actions.get(iterator-1).name());
         }
         String input = console.readLine();
-        int choice = Integer.parseInt(input);
-        --choice;
-        if(choice > actions.size()){
+        int selected = 0;
+        try{
+            selected = Integer.parseInt(input);
+            --selected;
+        }catch (NumberFormatException error){
+            console.writeLine("Please enter a number");
+            return;
+        }
+        if(selected >= actions.size()){
             console.writeLine("Please enter a valid option");
             return;
         }
-        if(choice == actions.size()-1){
+        if(selected == actions.size()-1){
             System.exit(0);
         }
-        actions.get(choice).execute(console);
+        actions.get(selected).execute(console);
     }
 
     public static void main(String[] args) {
