@@ -13,6 +13,7 @@ public class ForumManagerTest {
         FakeConsole console = new FakeConsole();
         Forum forum = new Forum();
         List<IForumAction> actions = new ArrayList<IForumAction>();
+        console.addInputs("1");
         ForumManager manager = new ForumManager(console,forum,actions);
 
         assertThat(console.getOutput(),containsString("Please select which operation you would like to perform"));

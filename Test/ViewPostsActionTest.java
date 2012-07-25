@@ -78,7 +78,7 @@ public class ViewPostsActionTest {
         assertThat(console.getOutput(),containsString("This is a dummy post."));
     }
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test
     public void shouldThrowExceptionIfIncorrectChoiceEntered(){
         Forum forum = new Forum();
         FakeConsole console = new FakeConsole();
@@ -86,10 +86,12 @@ public class ViewPostsActionTest {
         forum.login("default","password");
         forum.add(post);
         forum.logout();
-        console.addInputs("2");
+        console.addInputs("3");
         ViewPostsAction action = new ViewPostsAction(forum);
 
         action.execute(console);
+
+        assertThat(console.getOutput(),containsString("Please enter a valid option"));
     }
 
     @Test
@@ -121,8 +123,7 @@ public class ViewPostsActionTest {
 
         action.execute(console);
 
-        assertThat(console.getOutput(),containsString("1) View Comments"));
-        assertThat(console.getOutput(),containsString("2) Add Comment"));
+        assertThat(console.getOutput(),containsString("1) Add Comment"));
     }
 
     @Test

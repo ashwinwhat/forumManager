@@ -37,4 +37,15 @@ public class PostTest {
 
         assertThat(post.viewComments().get(0), containsString("Dummy comment."));
     }
+
+    @Test
+    public void shouldAllowDeletionOfComment(){
+        Post post = new Post("Test Title","Dummy Author","This is a dummy post.");
+        post.comment("Dummy comment.");
+        post.comment("Dummy comment 2.");
+
+        post.deleteComment(0);
+
+        assertThat(post.viewComments().get(0),equalTo("Dummy comment 2."));
+    }
 }

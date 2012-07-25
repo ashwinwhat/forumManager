@@ -45,6 +45,7 @@ public class ForumManager {
         actions.add(new LoginAction(forum));
         actions.add(new ViewPostsAction(forum));
         actions.add(new AddNewPostAction(forum));
+        actions.add(new DeletePostAction(forum));
         actions.add(new QuitAction(forum));
         ForumManager manager = new ForumManager(console,forum,actions);
         while(true){

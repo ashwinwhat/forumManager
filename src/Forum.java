@@ -6,12 +6,16 @@ import java.util.Map;
 public class Forum {
     private List<Post> posts = new ArrayList<Post>();
     private Map<String,String> users = new HashMap<String, String>();
+    private List<String> admins = new ArrayList<String>();
     private boolean loggedIn = false;
+    private boolean isAdmin = false;
     private String userName = null;
 
     public Forum(){
         users.put("default","password");
         users.put("1","1");
+        admins.add("1");
+
     }
 
     public void add(Post post) {
@@ -48,6 +52,7 @@ public class Forum {
         if(!users.get(userName).equals(password)) throw new RuntimeException();
         this.userName = userName;
         loggedIn = true;
+        if(admins.contains(userName)) isAdmin = true;
     }
 
     public void logout(){
@@ -57,5 +62,14 @@ public class Forum {
 
     public Boolean isLoggedIn() {
         return loggedIn;
+    }
+
+    public void deletePost(int postToDelete) {
+        if(!isAdmin) throw new RuntimeException();
+        posts.remove(postToDelete);
+    }
+
+    public boolean isAdmin() {
+        return isAdmin;
     }
 }

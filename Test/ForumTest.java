@@ -82,4 +82,33 @@ public class ForumTest {
         forum.comment(post,"This is a dummy comment");
         assertThat(forum.readComments(post).get(0), containsString("This is a dummy comment"));
     }
+
+    @Test
+    public void shouldAllowAdminToDeletePost(){
+        Forum forum = new Forum();
+        FakeConsole console = new FakeConsole();
+        forum.login("1","1");
+        Post post = new Post("Test Title","Dummy Author","This is a dummy post.");
+        forum.add(post);
+        Post post2 = new Post("Test Title2","Dummy Author2","This is a dummy post2.");
+        forum.add(post2);
+
+        forum.deletePost(0);
+
+        assertThat(forum.viewPosts().get(0).getDetails(),containsString("Test Title2 - Dummy Author2"));
+    }
+
+    @Test(expected = RuntimeException.class)
+    public void shouldNotAllowNonAdminToDeletePost(){
+        Forum forum = new Forum();
+        FakeConsole console = new FakeConsole();
+        forum.login("default","password");
+        Post post = new Post("Test Title","Dummy Author","This is a dummy post.");
+        forum.add(post);
+        Post post2 = new Post("Test Title2","Dummy Author2","This is a dummy post2.");
+        forum.add(post2);
+
+        forum.deletePost(0);
+
+    }
 }

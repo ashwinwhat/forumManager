@@ -58,67 +58,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ForumTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/ForumTest.java">
+      <file leaf-file-name="ForumManagerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/ForumManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="59" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginActionTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/LoginActionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="71" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForumManager.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ForumManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="113" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.50056624">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1384#1398#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LoginAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="51" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewCommentsActionTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/ViewCommentsActionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewCommentsAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ViewCommentsAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="40" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+            <state line="48" column="4" selection-start="1677" selection-end="1677" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,26 +70,87 @@
       <file leaf-file-name="ViewPostsActionTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/ViewPostsActionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="35" selection-start="4668" selection-end="4668" vertical-scroll-proportion="0.0">
+            <state line="101" column="69" selection-start="3454" selection-end="3454" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewPostsAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ViewPostsAction.java">
+      <file leaf-file-name="DeletePostActionTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test/DeletePostActionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="5" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.0">
+            <state line="45" column="64" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.40670553">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForumManagerTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/ForumManagerTest.java">
+      <file leaf-file-name="DeletePostAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DeletePostAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
+            <state line="19" column="46" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddNewPostActionTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/AddNewPostActionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FakeConsole.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/FakeConsole.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="78" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#202#210#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForumManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ForumManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="13" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IConsole.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IConsole.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="29" selection-start="33" selection-end="101" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainConsole.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainConsole.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="5" selection-start="144" selection-end="570" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Forum.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Forum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="6" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#292#300#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,22 +165,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/ReadPostsForumAction.java" />
-        <option value="$PROJECT_DIR$/Test/AddNewCommentTest.java" />
-        <option value="$PROJECT_DIR$/src/ReadPostsAction.java" />
-        <option value="$PROJECT_DIR$/Test/ReadPostsActionTest.java" />
-        <option value="$PROJECT_DIR$/src/AddNewComment.java" />
-        <option value="$PROJECT_DIR$/src/AddNewPostAction.java" />
-        <option value="$PROJECT_DIR$/Test/ForumManagerTest.java" />
-        <option value="$PROJECT_DIR$/Test/QuitActionTest.java" />
         <option value="$PROJECT_DIR$/src/QuitAction.java" />
-        <option value="$PROJECT_DIR$/Test/ForumTest.java" />
         <option value="$PROJECT_DIR$/Test/LoginActionTest.java" />
-        <option value="$PROJECT_DIR$/src/Forum.java" />
         <option value="$PROJECT_DIR$/src/LoginAction.java" />
         <option value="$PROJECT_DIR$/src/ViewCommentsAction.java" />
         <option value="$PROJECT_DIR$/src/ViewPostsAction.java" />
+        <option value="$PROJECT_DIR$/src/Post.java" />
+        <option value="$PROJECT_DIR$/Test/PostTest.java" />
+        <option value="$PROJECT_DIR$/Test/ForumTest.java" />
+        <option value="$PROJECT_DIR$/Test/FakeConsole.java" />
+        <option value="$PROJECT_DIR$/src/User.java" />
+        <option value="$PROJECT_DIR$/Test/ViewPostsActionTest.java" />
+        <option value="$PROJECT_DIR$/Test/ForumManagerTest.java" />
         <option value="$PROJECT_DIR$/src/ForumManager.java" />
+        <option value="$PROJECT_DIR$/src/Forum.java" />
+        <option value="$PROJECT_DIR$/src/DeletePostAction.java" />
+        <option value="$PROJECT_DIR$/Test/DeletePostActionTest.java" />
       </list>
     </option>
   </component>
@@ -212,20 +216,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForumManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForumManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -298,6 +288,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ForumManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ForumManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,14 +328,14 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.ForumManager">
-    <configuration default="false" name="ForumManagerTest.shouldDisplayListOfActions" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="DeletePostActionTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="ForumManagement" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ForumManagerTest" />
-      <option name="METHOD_NAME" value="shouldDisplayListOfActions" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="DeletePostActionTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -346,14 +350,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="ForumManagerTest.shouldPerformSelectedAction" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="All in ForumManagement" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="ForumManagement" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ForumManagerTest" />
-      <option name="METHOD_NAME" value="shouldPerformSelectedAction" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -384,14 +388,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="ForumTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="DeletePostActionTest.shouldDisplayMessageIfNotLoggedIn" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="ForumManagement" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ForumTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="DeletePostActionTest" />
+      <option name="METHOD_NAME" value="shouldDisplayMessageIfNotLoggedIn" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -406,13 +410,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="LoginActionTest.shouldSendMessageIfCorrectIdAndPasswordEntered" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="DeletePostActionTest.shouldDisplayMessagesIfNoPostsExist" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="ForumManagement" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginActionTest" />
-      <option name="METHOD_NAME" value="shouldSendMessageIfCorrectIdAndPasswordEntered" />
+      <option name="MAIN_CLASS_NAME" value="DeletePostActionTest" />
+      <option name="METHOD_NAME" value="shouldDisplayMessagesIfNoPostsExist" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -546,11 +550,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ForumManagerTest.shouldDisplayListOfActions" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ForumManagerTest.shouldPerformSelectedAction" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DeletePostActionTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in ForumManagement" />
       <item index="2" class="java.lang.String" itemvalue="Application.ForumManager" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ForumTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LoginActionTest.shouldSendMessageIfCorrectIdAndPasswordEntered" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DeletePostActionTest.shouldDisplayMessageIfNotLoggedIn" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DeletePostActionTest.shouldDisplayMessagesIfNoPostsExist" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -586,7 +590,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1092" extended-state="1" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -596,13 +600,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27145922" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20889127" sideWeight="0.42167383" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57832617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20889127" sideWeight="0.7886266" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21137339" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -681,98 +685,116 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AddNewComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="54" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AddNewPostAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="51" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/QuitActionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/QuitAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Forum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="12" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/PostTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/ForumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="59" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/User.java">
+    <entry file="file://$PROJECT_DIR$/src/ViewCommentsAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/LoginActionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Post.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="71" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.0" />
+        <state line="36" column="39" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/ForumManagerTest.java">
+    <entry file="file://$PROJECT_DIR$/Test/PostTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
+        <state line="48" column="62" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.94350284" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/ForumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="0" selection-start="3831" selection-end="3831" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/ViewCommentsActionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/ViewPostsAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
+        <state line="51" column="9" selection-start="1395" selection-end="1516" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="29" selection-start="33" selection-end="101" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="5" selection-start="144" selection-end="570" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/FakeConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="78" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#202#210#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/ViewPostsActionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="35" selection-start="4668" selection-end="4668" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ViewPostsAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="5" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.0">
+        <state line="101" column="69" selection-start="3454" selection-end="3454" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ViewCommentsAction.java">
+    <entry file="file://$PROJECT_DIR$/Test/ForumManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="40" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+        <state line="48" column="4" selection-start="1677" selection-end="1677" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LoginAction.java">
+    <entry file="file://$PROJECT_DIR$/Test/AddNewPostActionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="51" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+        <state line="6" column="13" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Forum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="6" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#292#300#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ForumManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="113" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.50056624">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1384#1398#0" expanded="true" />
-          </folding>
+        <state line="3" column="13" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DeletePostAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="46" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/DeletePostActionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="64" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.40670553">
+          <folding />
         </state>
       </provider>
     </entry>

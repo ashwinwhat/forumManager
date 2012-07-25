@@ -63,7 +63,6 @@ public class ViewPostsAction implements IForumAction {
     }
 
     private void installCommentActions(Post post) {
-        actions.add(new ViewCommentsAction(forum,post));
         actions.add(new AddNewComment(forum,post));
     }
 
@@ -73,6 +72,8 @@ public class ViewPostsAction implements IForumAction {
             return null;
         }
         console.writeLine(forum.viewPosts().get(selected).read());
+        console.writeLine("\n Comments: \n");
+        (new ViewCommentsAction(forum,forum.viewPosts().get(selected))).execute(console);
         return forum.viewPosts().get(selected);
     }
 
